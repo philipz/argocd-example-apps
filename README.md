@@ -19,3 +19,5 @@ to explore ArgoCD and GitOps!
 | [plugins](plugins/) | Apps which demonstrate config management plugins usage |
 | [blue-green](blue-green/) | Demonstrates how to implement blue-green deployment using [Argo Rollouts](https://github.com/argoproj/argo-rollouts)
 | [apps](apps/) | An app composed of other apps |
+
+`./argocd-linux-amd64 app create guestbook --repo https://github.com/philipz/argocd-example-apps.git --path guestbook --dest-server https://kubernetes.default.svc --dest-namespace default`
